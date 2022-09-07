@@ -1,0 +1,179 @@
+body {
+    background-color: #edeaf0;
+    font-family: 新細明體, 標楷體, 微軟正黑體, sans-serif;
+}
+
+.title {
+    /* 舍下左右間距 */
+    /* margin: 12px; */
+    /* padding: 24px 0px; */
+
+    color: #ffffff;
+    background: rgb(31, 0, 84);
+    font-family: 標楷體;
+
+    /* 1rem ==> 16px */
+    font-size: 2rem;
+    height: 4rem;
+
+    /* 邊框 */
+    border-radius: 0.8remx;
+
+    /* 垂直置中 */
+    line-height: 64px;
+    /* 水平置中 */
+    text-align: center;
+}
+
+.text-1 {
+    background-color: blanchedalmond;
+    margin: 6px 0px;
+    padding: 12px;
+    border: 2px solid salmon;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text-2 {
+    background-color: rgba(206, 175, 235);
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.text-3 {
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    background-color: chartreuse;
+    padding: 0 12px;
+}
+
+.text-4 {
+    text-align: left;
+    line-height: 24px;
+}
+
+.text-4 a {
+    background-color: crimson;
+    color: white;
+    padding: 3px;
+}
+
+.sub-title {
+    /* display: inline-block; */
+    margin: 6px 0px;
+    background-color: rgb(38, 0, 104);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-family: 標楷體;
+}
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+ol {
+    /* 內間距 */
+    text-align: left;
+
+}
+
+li {
+    /* 外間距 */
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul a {
+    text-decoration: none;
+    line-height: 20px;
+}
+
+ul a :hover {
+    color: greenyellow;
+}
+
+ul a :visited {
+    color: rgb(13, 0, 197);
+}
+
+ul :active {
+    color: darkred;
+}
+
+#image {
+    background-color: burlywood;
+    padding: 6px;
+
+}
+
+#image img {
+    background-color: white;
+    padding: 3px;
+    width: 30%;
+}
+
+#main-table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#main-table th {
+    background-color: coral;
+    color: aliceblue;
+}
+
+#main-table td {
+    background-color: aqua;
+    font-style: 12px;
+}
+
+#main-table td:first-child {
+    background-color: rgb(110, 55, 35);
+    color: white
+}
+
+#main-table td:last-child {
+    background-color: blueviolet;
+}
+
+#main-table tr:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+form {
+    background-color: darkred;
+    padding: 12px 0;
+    margin: 6px;
+    border-radius: 12px;
+    color: white;
+}
+
+input,
+textarea,
+label {
+    font-size: 20px;
+    text-align: center;
+    margin: 6px;
+}
+
+button[type="submit"] {
+    background-color: greenyellow;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    background-repeat: 6px;
+    border: none;
+}
